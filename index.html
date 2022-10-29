@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotação</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+mark {
+    background-color: rgb(82, 82, 187);
+}
+
+    </style>
+</head>
+<body>
+    <h1>Anotações de Estudo</h1>
+    <hr>
+
+    <h2>Parágrafos e quebras de linhas </h2>
+    <p>para adicionar um paragrafo de qualquer forma é só colocar tudo dentro das tags &lt;p&gt; e &lt;/p&gt;<!--LESS THAM / GREATER THAM -->
+    </p>
+
+    <p>para quebra de texto é só colocar dentro da tag &lt;br&gt;</p>
+
+    <H2>Símbolos e Emojis</H2>
+    <h3>Símbolos</h3>
+    <p>
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &delta;
+        &uarr;
+    </p>
+    <h3>Emojis</h3>
+    &#x2764;
+    &#x1F60A; <!--Da para ver todos os codigos de cada emoji pelo emojipidia-->
+
+    <h2>imagens</h2>
+
+    <p>para colocar uma imagem e nessessario usar a tag img. como podemos ver abaixo</p>
+    <p>exemplos:</p>
+    <img src="Algumas-das-mais-impressionantes-paisagens-pelo-mundo-Arizona.jpg" alt="uma paisagen"> <img src="paisagens-do-pôr-sol-na-praia-com-fundo-colorido-céu-221876504.jpg" alt="paisagem do mar">
+    <img src="https://img.freepik.com/fotos-gratis/amanhecer-paisagem-cor-branca-luz-solar_1203-4456.jpg?2?w=360paisagem do sol" alt="">
+
+    <h2>Formatções</h2>
+    <h3>Negrito</h3>
+    <p>um termo em <b>negrito</b> pode ser colocada usando a tag &lt;b&gt; (não semantica)</p>
+    <p>um termo em <strong>negrito</strong> pode ser usada utililizando a tag &lt;strong&gt; (semantico) </p>
+    <h3>Itálico</h3>
+    <p>um termo em <i>itálico</i> pode ser usado utilizando a tag &lt;i&gt; (não semantico)</p>
+    <p>um termo em <em>italico</em> pode ser usado utilizando a tag &lt;em&gt;(semantica) </p>
+    <h3>marcação de texto</h3>
+    <p>eu posso colorir <mark style="background-color: aqua;">apenas uma marcação expecifica</mark> ou todas de uma vez só</p>
+    <p>posso criar<mark> um texto marcado </mark>usado a tag mark</p>
+    <p>pode <mark>ser marcado em qualquer parte do texro</mark>em qualquer parte</p>
+    <h3>texto grande e pequeno</h2>
+    <p>posso criar um texto <big>grande</big> e um <small>pequeno</small> com as tags big e small</p>
+    <p>lembrando que já são tag não semanticas</p>
+    <h3>texto deletado</h3>
+    <p>posso mostras um texto deletado uasando a tag del <del>um texto excluido</del> é usado quando um texto deve ser lido mas não é importante</p>
+    <h3>texto inserido</h3>
+    <p>posso marco um testo usando a tag ins <ins>para dar ênfase a o texto marcado</ins></p>
+    <p> e tambem existe a tag u para subilinhar <u>mas a tag u não é semantica</u></p>
+    <h3>texto sobrescrito</h3>
+    <p>para usar coisa como x<sup>20</sup>-3 com a tag sup</p>
+    <h3>texto subscrito</h3>
+    <p>para incerir coisas do tipo H<sub>2</sub>O com a tag sub</p>
+    <h3>codogos de fonte e pré formatações</h3>
+    <p>o comando para <code>mudar a fonte para uma fonte que todos os carcteris ocupam o mesmo espasso</code></p>
+
+    
+    <code>
+            
+            <pre>
+                num = int(input('digite um numero'))
+                if num % 2 ==0:
+                        print(f'0 número{num} é par')
+                else:
+                        print(f'0 número{num} é impar)
+                print('fim do programa')
+            </pre>
+        
+    </code>
+    
+    <h3>citações simples</h3>
+    <p>para colocar aspas de maneira semantica se o comando &lt;q&gt;</p>
+    <p>de acordo com mimha mãe:<q>não sou todo mundo</q></p>
+    <h3>citações completas</h3>
+    <p>Deacordo com Gustavo Guanabara</p>
+    <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=24"> o computados e um burro muito rapido</blockquote>
+    <h3>abreviações</h3>
+    <p>estou estudanso<abbr title="hyper text markup language"> html</abbr> e <abbr title="cascading style">css</abbr>. Estou adorando</p>
+    <h3>texto invertido</h3>
+    <p>E si eu quiser colocar um texo invertido é só colocar a tag bdo <bdo dir="ltr">E si eu quiser colocar um texo invertido é só colocar a tag bdo</bdo></p>
+    <h2>fazendo listas</h2>
+    <h3>para fazer listas ordenas si usa duas tags: <q>ol e li</q></h3>
+    <p>como por exemplo essa lista que foi feita usando as tags</p>
+    <ol>
+<li>acordei</li>
+<li>comi</li>
+<li>vi desenho animado</li>
+<li>e agora estou estudando</li>
+    </ol>
+    <p>usando um parametro dentro da tag ol eu posso mudar o estilo de numeração</p>
+    <p>Exemplo:</p>
+    <ol type="A">
+        <li>acordei</li>
+        <li>comi</li>
+        <li>vi desenho animado</li>
+        <li>e agora estou estudando</li>
+
+    </ol>
+    <ol type="I">
+        <li>acordei</li>
+        <li>comi</li>
+        <li>vi desenho animado</li>
+        <li>e agora estou estudando</li>
+
+    </ol>
+    <p>eu tambem posso fazer com que a lista comece apartir do numero que eu quiser</p>
+    <ol type="1" start="3">
+        <li>acordei</li>
+        <li>comi</li>
+        <li>vi desenho animado</li>
+        <li>e agora estou estudando</li>
+<h3>E para listas não ordenadas si usa a tag ul</h3>
+        <ul>
+<li>pão</li>
+<li>café</li>
+<li>leite</li>
+        </ul>
+<p>os posntos na frente das listas pode ser mudaos tambem para: <q>disc, cicle e square</q></p>
+
+
+    
+    
+
+
+
+
+
+
+
+
+</body>
+</html>
